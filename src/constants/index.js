@@ -3,7 +3,6 @@ import {
   car,
   contact,
   css,
-  estate,
   express,
   git,
   github,
@@ -20,10 +19,15 @@ import {
   redux,
   sass,
   snapgram,
-  summiz,
+  messenger,
   tailwindcss,
+  weather,
   threads,
   typescript,
+  bootstrap,
+  music,
+  java,
+  figma,
 } from '../assets/icons';
 
 export const skills = [
@@ -62,16 +66,7 @@ export const skills = [
     name: 'MongoDB',
     type: 'Database',
   },
-  {
-    imageUrl: motion,
-    name: 'Motion',
-    type: 'Animation',
-  },
-  {
-    imageUrl: mui,
-    name: 'Material-UI',
-    type: 'Frontend',
-  },
+
   {
     imageUrl: nextjs,
     name: 'Next.js',
@@ -106,6 +101,31 @@ export const skills = [
     imageUrl: typescript,
     name: 'TypeScript',
     type: 'Frontend',
+  },
+  {
+    imageUrl: bootstrap,
+    name: 'Bootstrap',
+    type: 'Frontend',
+  },
+  {
+    imageUrl: motion,
+    name: 'Motion',
+    type: 'Animation',
+  },
+  {
+    imageUrl: mui,
+    name: 'Material-UI',
+    type: 'Frontend',
+  },
+  {
+    imageUrl: java,
+    name: 'Java',
+    type: 'Backend',
+  },
+  {
+    imageUrl: figma,
+    name: 'Figma',
+    type: 'Designing',
   },
 ];
 
@@ -184,51 +204,51 @@ export const socialLinks = [
 
 export const projects = [
   {
-    iconUrl: pricewise,
-    theme: 'btn-back-red',
-    name: 'Amazon Price Tracker',
-    description:
-      'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-    link: 'https://github.com/adrianhajdin/pricewise',
-  },
-  {
-    iconUrl: threads,
-    theme: 'btn-back-green',
-    name: 'Full Stack Threads Clone',
-    description:
-      'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-    link: 'https://github.com/adrianhajdin/threads',
-  },
-  {
-    iconUrl: car,
+    iconUrl: messenger,
     theme: 'btn-back-blue',
-    name: 'Car Finding App',
+    name: 'Messenger Clone App',
     description:
-      'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-    link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+      'Designed and developed a real-time messaging application using cutting-edge technologies to emulate the user experience of popular messaging platforms.',
+    link: 'https://github.com/kabhinav577/Messenger-app',
+  },
+  {
+    iconUrl: music,
+    theme: 'btn-back-green',
+    name: 'Lyriks Music Player App',
+    description:
+      'Lyriks Music application offers an immersive music playback experience, allowing users to explore and enjoy their favorite tunes in a seamless and intuitive manner.',
+    link: 'https://github.com/kabhinav577/Lyrix_Music_App',
   },
   {
     iconUrl: snapgram,
     theme: 'btn-back-pink',
-    name: 'Full Stack Instagram Clone',
+    name: 'Social Media App',
     description:
-      'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-    link: 'https://github.com/adrianhajdin/social_media_app',
+      'Built a SocioVerse App, allowing users to share photos and connect with friends in a familiar social media environment.',
+    link: 'https://github.com/kabhinav577/SocioVerse',
   },
   {
-    iconUrl: estate,
-    theme: 'btn-back-black',
-    name: 'Real-Estate Application',
+    iconUrl: weather,
+    theme: 'btn-back-green',
+    name: 'Weather Forecast App',
     description:
-      'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-    link: 'https://github.com/adrianhajdin/projects_realestate',
+      'WeatherForecast is a dynamic weather application offering users real-time weather information and forecasts for locations worldwide. ',
+    link: 'https://github.com/kabhinav577/weather_app',
   },
   {
-    iconUrl: summiz,
-    theme: 'btn-back-yellow',
-    name: 'AI Summarizer Application',
+    iconUrl: music,
+    theme: 'btn-back-green',
+    name: 'Mini Ipod',
     description:
-      'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-    link: 'https://github.com/adrianhajdin/project_ai_summarizer',
+      'Developed a nostalgic iPod simulator application using React class components to recreate the iconic UI and UX of the classic iPod.',
+    link: 'https://github.com/kabhinav577/iPod-Classic',
+  },
+  {
+    iconUrl: threads,
+    theme: 'btn-back-red',
+    name: 'Issue Tracker App',
+    description:
+      'Developed a robust issue tracker application using Node.js and Express.js on the backend, coupled with EJS for dynamic templating and Bootstrap for a clean and responsive user interface.',
+    link: 'https://github.com/kabhinav577/IssueTracker_App',
   },
 ];
