@@ -1,4 +1,13 @@
-import { meta, shopify, starbucks, tesla } from '../assets/images';
+import {
+  meta,
+  shopify,
+  starbucks,
+  tesla,
+  bseb,
+  cbse,
+  codingNinjas,
+  vksu,
+} from '../assets/images';
 import {
   car,
   contact,
@@ -250,5 +259,67 @@ export const projects = [
     description:
       'Developed a robust issue tracker application using Node.js and Express.js on the backend, coupled with EJS for dynamic templating and Bootstrap for a clean and responsive user interface.',
     link: 'https://github.com/kabhinav577/IssueTracker_App',
+  },
+];
+
+export const educations = [
+  {
+    name: 'Full Stack Development',
+    academic_name: 'Coding Ninjas',
+    place: 'Online',
+    date: '2022-2023',
+    icon: codingNinjas,
+    iconBg: '#accbe1',
+    points: [
+      'Developed strong problem-solving skills through algorithmic challenges and coding exercises.',
+      'Developed a comprehensive understanding of how data flows between the front-end and back-end, ensuring seamless communication.',
+      'Implemented secure user authentication using industry-standard practices, ensuring user data protection.',
+      'Willingness to acquire new skills and knowledge, embracing a continuous learning mindset.',
+    ],
+  },
+  {
+    name: "Bachelor's Of Science",
+    academic_name: 'Veer Kunwar Singh University (VKSU)',
+    place: 'Arrah, Bihar',
+    date: '2018-2021',
+    icon: vksu,
+    iconBg: '#fbc3bc',
+    points: [
+      "Completed Bachelor's degree in Science with a 68% score, showcasing a solid foundation in a diverse range of subjects.",
+
+      'Actively engaged in self-directed learning during free time, focusing on programming and IT-related subjects.',
+
+      'Demonstrated a commitment to continuous learning, staying updated with the latest advancements in the tech industry.',
+
+      'Showcase adaptability by successfully transitioning from a science background to pursuing a passion in technology.',
+    ],
+  },
+  {
+    name: 'Intermediate Of Science',
+    academic_name: 'Bihar Secondary Educational Board (BSEB)',
+    place: 'Dehri, Bihar',
+    date: '2016-2018',
+    icon: bseb,
+    iconBg: '#b7e4c7',
+    points: [
+      'Completed Intermediate education with a 55% score in the PCM (Physics, Chemistry, Mathematics) stream.',
+      'Engaged with challenging problems in Physics, Chemistry, and Mathematics, fostering the ability to tackle complex issues.',
+      'Acquired cross-functional skills by navigating through different science subjects, showcasing adaptability and versatility.',
+      'Embraced a mindset of continuous learning, recognizing that challenges are opportunities for growth.',
+    ],
+  },
+  {
+    name: 'Matriculation',
+    academic_name: 'Central Board of Secondary Education (CBSE)',
+    place: 'Aurangabad, Bihar',
+    date: '2016',
+    icon: cbse,
+    iconBg: '#a2d2ff',
+    points: [
+      'Achieved a perfect CGPA of 10, reflecting consistent high performance across all subjects in the CBSE curriculum.',
+      'Successfully managed time to balance multiple subjects, assignments, and extracurricular activities.',
+      'Demonstrated punctuality and regular attendance, contributing to a disciplined academic environment.',
+      'Shared knowledge and insights with classmates, contributing to a collaborative learning environment.',
+    ],
   },
 ];
