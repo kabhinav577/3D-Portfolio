@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unknown-property */
 import { useRef, useEffect } from 'react';
 import { useAnimations, useGLTF } from '@react-three/drei';
 
@@ -11,6 +12,7 @@ const Bird = () => {
 
   useEffect(() => {
     actions['Take 001'].play();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   useFrame(({ clock, camera }) => {

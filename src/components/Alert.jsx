@@ -1,3 +1,4 @@
+// eslint-disable-next-line react/prop-types
 const Alert = ({ type, text }) => {
   return (
     <div className="absolute top-10 left-0 right-0 flex justify-center items-center">

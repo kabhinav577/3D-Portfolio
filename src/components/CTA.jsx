@@ -1,4 +1,4 @@
-import React from 'react';
+/* eslint-disable react/no-unescaped-entities */
 import { Link } from 'react-router-dom';
 
 const CTA = () => {
@@ -15,4 +15,5 @@ const CTA = () => {
   );
 };
 
+// eslint-disable-next-line react-refresh/only-export-components
 export default CTA;

@@ -1,14 +1,14 @@
-import React, { Suspense, useRef, useState } from 'react';
+/* eslint-disable react/no-unknown-property */
+import { Suspense, useState } from 'react';
 import useAlert from '../hooks/useAlert';
 import emailjs from '@emailjs/browser';
 import { Canvas } from '@react-three/fiber';
 
 import Loader from '../components/Loader';
-import Fox from '../models/FOx';
+import Fox from '../models/Fox';
 import Alert from '../components/Alert';
 
 const Contact = () => {
-  const formRef = useRef(null);
   const [form, setForm] = useState({ name: '', email: '', message: '' });
   const [isLoading, setIsLoading] = useState(false);
   const [currentAnimation, setCurrentAnimation] = useState('idle');

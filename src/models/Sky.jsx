@@ -1,9 +1,11 @@
+/* eslint-disable react/no-unknown-property */
 import { useGLTF } from '@react-three/drei';
-import React, { useRef } from 'react';
+import { useRef } from 'react';
 
 import skyScene from '../assets/3d/sky.glb';
 import { useFrame } from '@react-three/fiber';
 
+// eslint-disable-next-line react/prop-types
 const Sky = ({ isRotating }) => {
   const skyRef = useRef();
 
